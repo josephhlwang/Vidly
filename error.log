@@ -1,0 +1,55 @@
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:27017',
+  level: 'error',
+  timestamp: '2020-09-04T15:24:12.133Z'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:27017',
+  level: 'error',
+  timestamp: '2020-09-04T15:25:08.838Z'
+}
+{
+  message: 'connect ECONNREFUSED 127.0.0.1:27017',
+  level: 'error',
+  timestamp: '2020-09-04T15:26:15.727Z'
+}
+{
+  message: 'Genre validation failed: name: Path `name` is required.',
+  level: 'error',
+  timestamp: '2020-09-04T16:17:21.318Z'
+}
+{
+  message: 'Cast to ObjectId failed for value "" at path "_id" for model "Genre"',
+  level: 'error',
+  timestamp: '2020-09-04T16:28:14.329Z'
+}
+{
+  message: 'getGenres is not defined',
+  level: 'error',
+  timestamp: '2020-09-04T16:28:59.461Z'
+}
+{
+  message: 'Joi is not defined',
+  level: 'error',
+  timestamp: '2020-09-04T17:17:33.998Z'
+}
+{
+  message: 'Joi.validate is not a function',
+  level: 'error',
+  timestamp: '2020-09-04T17:17:55.612Z'
+}
+{
+  message: "Cannot read property 'numberInStock' of undefined",
+  level: 'error',
+  timestamp: '2020-09-04T17:19:36.380Z'
+}
+{
+  message: "Cannot read property 'numberInStock' of undefined",
+  level: 'error',
+  timestamp: '2020-09-04T17:20:20.445Z'
+}
+{
+  message: "Cannot read property 'numberInStock' of undefined",
+  level: 'error',
+  timestamp: '2020-09-04T17:20:46.058Z'
+}
