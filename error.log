@@ -1,0 +1,10 @@
+{
+  level: 'error',
+  message: 'FATAL ERROR: jwtPrivateKey is not defined.',
+  timestamp: '2020-09-04T18:53:16.348Z'
+}
+{
+  level: 'error',
+  message: 'FATAL ERROR: jwtPrivateKey is not defined.',
+  timestamp: '2020-09-04T18:59:39.915Z'
+}

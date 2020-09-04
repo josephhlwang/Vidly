@@ -1,11 +1,12 @@
 const mongoose = require("mongoose");
 const winston = require("winston");
+const config = require("config");
 require("winston-mongodb");
 const logger = require("../logger/logger");
 
 module.exports = function () {
   mongoose
-    .connect("mongodb://localhost/vidly", {
+    .connect(config.get("db"), {
       useNewUrlParser: true,
       useUnifiedTopology: true,
       useFindAndModify: false,
@@ -20,7 +21,7 @@ module.exports = function () {
         winston.format.timestamp(),
         winston.format.prettyPrint()
       ),
-      db: "mongodb://localhost/vidly",
+      db: config.get("db"),
       level: "error",
       options: {
         useNewUrlParser: true,
